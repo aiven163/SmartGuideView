@@ -1,0 +1,34 @@
+plugins {
+    id 'com.android.library'
+}
+
+def deps = rootProject.ext.dependencies
+def config = rootProject.ext.android
+
+android {
+    compileSdkVersion config.compileSdk
+    buildToolsVersion config.toolVersion
+    defaultConfig {
+        minSdkVersion config.minSdk
+        targetSdkVersion config.targetSdk
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    api "com.android.support:support-v4:${deps.support}"
+}
+
+
+
+apply from: 'publish.gradle'

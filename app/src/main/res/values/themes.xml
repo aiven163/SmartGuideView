@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="BaseGuidDemoTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="SmartAppTheme" parent="BaseGuidDemoTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_main_theme_color</item>
+        <item name="colorPrimaryDark">@color/app_main_theme_color</item>
+        <item name="colorAccent">@color/app_main_theme_color</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+</resources>

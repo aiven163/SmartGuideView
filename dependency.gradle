@@ -1,0 +1,16 @@
+ext {
+    android = [
+            toolVersion      :"29.0.1",
+            compileSdk       : 29,
+            applicationId    : "aiven.guide.view.demo",
+            minSdk           : 21,
+            targetSdk        : 28,
+            versionCode      : 1,
+            versionName : "20.02.14.21.40",
+    ]
+    dependencies = [
+            support            : "28.0.0",
+            design             : "28.0.0",
+    ]
+
+}

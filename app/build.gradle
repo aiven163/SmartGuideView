@@ -1,0 +1,37 @@
+plugins {
+    id 'com.android.application'
+}
+
+def deps = rootProject.ext.dependencies
+def config = rootProject.ext.android
+
+android {
+    compileSdkVersion config.compileSdk
+    buildToolsVersion config.toolVersion
+
+    defaultConfig {
+        applicationId config.applicationId
+        minSdkVersion config.minSdk
+        targetSdkVersion config.targetSdk
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    api "com.android.support:appcompat-v7:${deps.support}"
+    api "com.android.support:support-v4:${deps.support}"
+
+    api project(':library')
+}
