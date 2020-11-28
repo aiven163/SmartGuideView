@@ -31,4 +31,4 @@ dependencies {
 
 
 
-apply from: 'publish.gradle'
+apply from:'j-publish.gradle'

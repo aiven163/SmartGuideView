@@ -1,8 +1,9 @@
 ext {
     android = [
-            toolVersion      :"29.0.1",
+            toolVersion      :"29.0.2",
             compileSdk       : 29,
             applicationId    : "aiven.guide.view.demo",
+
             minSdk           : 21,
             targetSdk        : 28,
             versionCode      : 1,

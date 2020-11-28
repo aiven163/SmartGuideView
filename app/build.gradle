@@ -30,8 +30,10 @@ android {
 }
 
 dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     api "com.android.support:appcompat-v7:${deps.support}"
     api "com.android.support:support-v4:${deps.support}"
 
-    api project(':library')
+//    api project(':library')
+    implementation 'aiven.guide.view:library:1.0.0'
 }

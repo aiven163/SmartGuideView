@@ -125,10 +125,10 @@ public class MainActivity extends AppCompatActivity {
                     public IntroPanel buildFacePanel() {
                         return IntroPanel.newIntroPanel(getApplicationContext())
                                 //设置介绍图片与clipInfo的对齐信息
-                                .setIntroBmp(R.mipmap.test_face)
-                                .setAlign(SmartGuide.AlignX.ALIGN_LEFT,SmartGuide.AlignY.ALIGN_BOTTOM)
-                                .setSize(SmartUtils.dip2px(getApplicationContext(),151),SmartUtils.dip2px(getApplicationContext(),97))
-                                .setOffset(SmartUtils.dip2px(getApplicationContext(),-20),0);
+                                .setIntroBmp(R.mipmap.test_face_music)
+                                .setAlign(SmartGuide.AlignX.ALIGN_LEFT,SmartGuide.AlignY.ALIGN_TOP)
+                                .setSize(SmartUtils.dip2px(getApplicationContext(),120),SmartUtils.dip2px(getApplicationContext(),120))
+                                .setOffset(SmartUtils.dip2px(getApplicationContext(),-100),0);
                     }
                 })
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
@@ -180,10 +180,9 @@ public class MainActivity extends AppCompatActivity {
                     public IntroPanel buildFacePanel() {
                         return IntroPanel.newIntroPanel(getApplicationContext())
                                 //设置介绍图片与clipInfo的对齐信息
-                                .setIntroBmp(R.mipmap.test_face)
-                                .setAlign(SmartGuide.AlignX.ALIGN_LEFT,SmartGuide.AlignY.ALIGN_BOTTOM)
-                                .setSize(SmartUtils.dip2px(getApplicationContext(),151),SmartUtils.dip2px(getApplicationContext(),97))
-                                .setOffset(SmartUtils.dip2px(getApplicationContext(),-20),0);
+                                .setIntroBmp(R.mipmap.test_face_igg)
+                                .setAlign(SmartGuide.AlignX.ALIGN_RIGHT,SmartGuide.AlignY.ALIGN_TOP)
+                                .setSize(SmartUtils.dip2px(getApplicationContext(),151),SmartUtils.dip2px(getApplicationContext(),151));
                     }
                 })
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
@@ -258,10 +257,10 @@ public class MainActivity extends AppCompatActivity {
                     public IntroPanel buildFacePanel() {
                         return IntroPanel.newIntroPanel(getApplicationContext())
                                 //设置介绍图片与clipInfo的对齐信息
-                                .setIntroBmp(R.mipmap.test_face)
-                                .setAlign(SmartGuide.AlignX.ALIGN_LEFT,SmartGuide.AlignY.ALIGN_BOTTOM)
-                                .setSize(SmartUtils.dip2px(getApplicationContext(),151),SmartUtils.dip2px(getApplicationContext(),97))
-                                .setOffset(SmartUtils.dip2px(getApplicationContext(),-20),0);
+                                .setIntroBmp(R.mipmap.test_face_music)
+                                .setAlign(SmartGuide.AlignX.ALIGN_LEFT,SmartGuide.AlignY.ALIGN_TOP)
+                                .setSize(SmartUtils.dip2px(getApplicationContext(),120),SmartUtils.dip2px(getApplicationContext(),120))
+                                .setOffset(SmartUtils.dip2px(getApplicationContext(),-100),0);
                     }
                 })
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
@@ -369,10 +368,10 @@ public class MainActivity extends AppCompatActivity {
                     public IntroPanel buildFacePanel() {
                         return IntroPanel.newIntroPanel(getApplicationContext())
                                 //设置介绍图片与clipInfo的对齐信息
-                                .setIntroBmp(R.mipmap.test_face)
-                                .setAlign(SmartGuide.AlignX.ALIGN_LEFT,SmartGuide.AlignY.ALIGN_BOTTOM)
-                                .setSize(SmartUtils.dip2px(getApplicationContext(),151),SmartUtils.dip2px(getApplicationContext(),97))
-                                .setOffset(SmartUtils.dip2px(getApplicationContext(),-20),0);
+                                .setIntroBmp(R.mipmap.test_face_music)
+                                .setAlign(SmartGuide.AlignX.ALIGN_LEFT,SmartGuide.AlignY.ALIGN_TOP)
+                                .setSize(SmartUtils.dip2px(getApplicationContext(),120),SmartUtils.dip2px(getApplicationContext(),120))
+                                .setOffset(SmartUtils.dip2px(getApplicationContext(),-100),0);
                     }
                 })
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
