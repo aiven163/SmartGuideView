@@ -20,9 +20,9 @@
 ```    
       dependencies {
           implementation fileTree(include: ['*.jar'], dir: 'libs')
-          implementation 'aiven.guide.view:library:1.0.0'
+          implementation 'aiven.guide.view:library:1.0.1'
           //或者使用api
-          // api 'aiven.guide.view:library:1.0.0'
+          // api 'aiven.guide.view:library:1.0.1'
       }
 ```
 
@@ -76,7 +76,7 @@
                 //添加点击事件
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
                     @Override
-                    public boolean emptyErrorClicked() {//点击蒙层中无裁剪和无镂空区域部分，部分需求是点击旁边无内容区域蒙层直接消失，所以这里增加了
+                    public boolean emptyErrorClicked(SmartGuide smartGuide) {//点击蒙层中无裁剪和无镂空区域部分，部分需求是点击旁边无内容区域蒙层直接消失，所以这里增加了
                         return true;//返回true，引导消失，false不消失
                     }
 
@@ -146,7 +146,7 @@
                 })
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
                     @Override
-                    public boolean emptyErrorClicked() {
+                    public boolean emptyErrorClicked(SmartGuide smartGuide) {
                         return true;
                     }
 
