@@ -208,11 +208,10 @@
  
  ```
  - - -
- 三个实例都说完了，说几个没有介绍的方法：
- 
- SmartGuide.clearLayers()  清空所有蒙层中的Layer，几乎不会用到
- SmartGuide.removeLayerByTag(String tag) 根据tag 移除某个Layer，当多个引导指示跳转的时候会用到
- SmartGuide.dismiss()  直接退出用户引导蒙层
+ 三个实例都说完了，说几个没有介绍的方法：</br>
+ SmartGuide.clearLayers()  清空所有蒙层中的Layer，几乎不会用到。</br>
+ SmartGuide.removeLayerByTag(String tag) 根据tag 移除某个Layer，当多个引导指示跳转的时候会用到</br>
+ SmartGuide.dismiss()  直接退出用户引导蒙层</br>
  
  另外OnGuidClickListener 是抽象类，不是接口，里面可以复现方法，监听引导蒙层的退出 
  destroyed() 方法，当蒙层退出时会调用
