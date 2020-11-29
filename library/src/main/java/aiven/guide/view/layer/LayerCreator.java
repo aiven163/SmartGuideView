@@ -119,7 +119,7 @@ public class LayerCreator implements GuidView.InnerOnGuidClickListener {
     @Override
     public boolean emptyErrorClicked() {
         if(mListener != null){
-            return mListener.emptyErrorClicked();
+            return mListener.emptyErrorClicked(smartGuide);
         }
         return false;
     }

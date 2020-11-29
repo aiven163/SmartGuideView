@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
                     @Override
-                    public boolean emptyErrorClicked() {//点击蒙层空白区域
+                    public boolean emptyErrorClicked(SmartGuide smartGuide) {//点击蒙层空白区域
                         return true;//返回true，引导消失，false不消失
                     }
 
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
                     @Override
-                    public boolean emptyErrorClicked() {
+                    public boolean emptyErrorClicked(SmartGuide smartGuide) {
                         return true;
                     }
 
@@ -161,7 +161,6 @@ public class MainActivity extends AppCompatActivity {
                 .initBaseColor(0X80000000)//设置引蒙层背景颜色
                 //新建一个引导
                 .newLayer(TAG_IGG_SHAPE)
-//                .buildCustomClip(xxx)
                 //创建一个镂空区域
                 .buildViewRectClip(new SmartGuide.ClipPositionBuilder<ViewRectClip>() {
                     @Override
@@ -187,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
                     @Override
-                    public boolean emptyErrorClicked() {
+                    public boolean emptyErrorClicked(SmartGuide smartGuide) {
                         return true;
                     }
 
@@ -265,7 +264,7 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
                     @Override
-                    public boolean emptyErrorClicked() {
+                    public boolean emptyErrorClicked(SmartGuide smartGuide) {
                         return true;
                     }
 
@@ -330,7 +329,7 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
                     @Override
-                    public boolean emptyErrorClicked() {//点击蒙层空白区域
+                    public boolean emptyErrorClicked(SmartGuide smartGuide) {//点击蒙层空白区域
                         return false;//返回true，引导消失，false不消失
                     }
 
@@ -376,7 +375,7 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .setOnGuidClickListener(new SmartGuide.OnGuidClickListener() {
                     @Override
-                    public boolean emptyErrorClicked() {
+                    public boolean emptyErrorClicked(SmartGuide smartGuide) {
                         return true;
                     }
 
