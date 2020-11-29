@@ -13,7 +13,7 @@
 <img src="https://upload-images.jianshu.io/upload_images/25308300-97cec32c5f833595.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp"  height="484" width="250">
 
 
-当前版本：1.0.0，当前还处在最初版本，可能有bug
+当前版本：1.0.1，当前还处在最初版本，可能有bug
 
 使用方式
     在需要引用的module 的gradle中
