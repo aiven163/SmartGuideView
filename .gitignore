@@ -9,7 +9,7 @@
 /.idea/assetWizardSettings.xml
 .DS_Store
 /build
-/library/publish.gradle
+/library/j-publish.gradle
 /captures
 .externalNativeBuild
 .cxx
