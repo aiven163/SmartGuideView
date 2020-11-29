@@ -209,6 +209,7 @@
  ```
  - - -
  三个实例都说完了，说几个没有介绍的方法：
+ 
  SmartGuide.clearLayers()  清空所有蒙层中的Layer，几乎不会用到
  SmartGuide.removeLayerByTag(String tag) 根据tag 移除某个Layer，当多个引导指示跳转的时候会用到
  SmartGuide.dismiss()  直接退出用户引导蒙层
