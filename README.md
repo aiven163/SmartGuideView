@@ -1,7 +1,7 @@
 # 一个Android APP新手引导蒙层工具View
 
 这里不做太多的描述，详细描述介绍到本人[简书文章](https://www.jianshu.com/p/61526f4e09d3) 查看，
-附带几张截屏（GitHub不知道能显示出来不）
+附带几张截屏（GitHub不知道能显示出来不，如果展示不出来，就去简书看吧，对应的是第4-6这三张图片）
 
 代码实例一用图</br>
 <img src="https://upload-images.jianshu.io/upload_images/25308300-c19e4c084dcb101b.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1080/format/webp"  height="484" width="250">
